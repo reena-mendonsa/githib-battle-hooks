@@ -1,27 +1,32 @@
-Github Top Stars
+## Github Battle
 
-Here we ill have multiple items in the menu like all, JavaScript, Python etc. Once you click on any one of menu it will display top 20 most starred repo.
+An open, extensible, platform for github users to track top repositories of various programming languages.
+Try out Github Battle's hosted version at
+ <https://www.react-githubbattle.netlify.app.com> .
 
-To fetch the data use the following URL
+![ ](./public/112756159-87a47080-9001-11eb-9a1f-0a8c7dabf644.png)
 
-JavaScript: https://api.github.com/search/repositories?q=stars:%3E1+language:JavaScript&sort=stars&order=desc&type=Repositories
+## Installation
 
-All: https://api.github.com/search/repositories?q=stars:%3E1+language:All&sort=stars&order=desc&type=Repositories
+Use the package manager npx create-react-app to install.
+
+### 1.Github Battler requires the following dependencies:
+     i. Nodejs 
+     ii. NPM 
+ 2. Clone this repo
+ 3. Run **_npm install_**, this wil download dependencies.
+ 4. Run ***npm run start*** to run the server in development mode.
 
 
-For other language change the name of the language in the language param.
 
-`Github Battle
 
-Another app that we will be building is Github Battle the will accept two github username in two input field. Once both the user is added you will show a button named Battle once clicked fetch the information of both user and based on some kind of formula based on the number of followers, repos etc declare a winner.
+## Usage
 
-To calculate the result take in consideration the number of followers, repos and other metrics if you need. FOr example (score of a user can be calculated using this formula noOfFollowers * 20 + noOfRepos)
+```python
+npm run start
 
-To fetch the user information of any user use the following URL
-https://api.github.com/users/gearon
+```
 
-Replace the username.
 
-Using Client Side Routing
-After creating both the application using client-side routing bring them together in a single page. The page will contain two tabs Popular Repos and Battle. Once clicked on Popular Repos it will display the first app and once clicked on Battle will display the battle app.
-
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
