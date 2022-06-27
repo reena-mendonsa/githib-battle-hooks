@@ -207,6 +207,11 @@ button {
   align-items: center;
 }
 
+.flex45 {
+  flex: 0 1 45%;
+}
+
+
 .justify-start {
   justify-content: flex-start;
 }
@@ -379,4 +384,20 @@ input {
   color: red !important;
   font-size: 2rem;
   font-weight: bold;
+}
+
+.box {
+  background-color: #cdcdce;
+  padding: 2rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.icons {
+  font-size: 1rem;
+  color: tomato;
+}
+
+.wl-h3 {
+  font-size: 1.5rem;
+  padding: 1rem;
 }
