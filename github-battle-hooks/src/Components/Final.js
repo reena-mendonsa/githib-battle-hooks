@@ -12,9 +12,9 @@ import { useLocation, withRouter } from "react-router";
 function Final(props) {
   let location = useLocation();
   console.log(props, "props");
-  let user1 = location.state[0];
+//   let user1 = location.state[0];
   let data1 = location.state[1];
-  let user2 = location.state[2];
+//   let user2 = location.state[2];
   let data2 = location.state[3];
 
   let darkMode = props.darkMode;
